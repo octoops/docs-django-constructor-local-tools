@@ -153,6 +153,10 @@ p {
   color: #FFFFFF;
   font-weight: 400; }
 
+.p_header{
+  color: #9d9d9d;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   color: #000000;
@@ -165,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit; }
 
 h1 {
-  font-size: 90px;
+  font-size: 80px;
   text-transform: uppercase;
   font-weight: 600;
   color: #FFFFFF; }
@@ -396,7 +400,7 @@ p.lang {
 /* ------------------------------------- */
 .loading-part {
   position: fixed;
-  background: #f2f3f7;
+  background: #99a2d0;
   top: 0;
   left: 0;
   width: 100vw;
@@ -802,6 +806,7 @@ p.lang {
     left: 0;
     top: 0; }
     .cd-words-wrapper b.is-visible {
+      color: #9d9d9d;
       position: relative;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
